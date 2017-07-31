@@ -15,5 +15,10 @@ $(document).ready(function () {
         
     $(this).parent().remove()   
     })
+$('.step2').on('click', '.swap', function() {
+    // console.log('swap was clicked');
+    $(this).parent().css('background-color', 'yellow');
+    
+})
 });
 })
