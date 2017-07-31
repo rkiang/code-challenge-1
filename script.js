@@ -4,7 +4,10 @@ $(document).ready(function () {
     $('#generate').on('click', function() {
         clicks++;
         // console.log('generate was clicked');
-        $('body').append('<div class="step2">' + '<p>This button was clicked ' + clicks + '</p>' + '<button class="swap">Swap</button', '<button class="delete">Delete</button>' + '</div>')
+        $('body').append('<div class="step2">' +
+        '<p>This button was clicked ' + clicks +
+        '</p>' + '<button class="swap">Swap</button>' +
+        '<button class="delete">Delete</button>' + '</div>')
         // $('.step2').append('<button class="swap">Swap</button', '<button class="delete">Delete</button>')
     })
 });
