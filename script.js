@@ -19,10 +19,10 @@ $(document).ready(function () {
             // console.log('swap was clicked');
             $(this).parent().css('background-color', 'yellow');
 
+        $('.step2').on('click', '.swap', function() {
+          
+               $(this).parent().css('background-color', 'red'); 
+            }) 
         })
-        // $('.step2').on('click', '.swap', function() {
-        //     if ($(this).css('background-color') === 'yellow') {
-        //        $(this).parent().css('background-color', 'red'); 
-        //     } DID NOT WORK AS PLANNED
-    })
+        })
 });
