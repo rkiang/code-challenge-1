@@ -9,5 +9,11 @@ $(document).ready(function () {
         '</p>' + '<button class="swap">Swap</button>' +
         '<button class="delete">Delete</button>' + '</div>')
         // $('.step2').append('<button class="swap">Swap</button', '<button class="delete">Delete</button>')
+    
+    $('.delete').on('click', function() {
+        // console.log('delete was clicked');
+        
+    $(this).parent().remove()   
     })
 });
+})
